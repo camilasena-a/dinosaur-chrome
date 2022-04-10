@@ -1,17 +1,24 @@
 <!DOCTYPE html>
-<html lang="pt=BR">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <title>Dino-Game</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-    <div class="background">
-        <div class="dino"></div>
-      </div> 
-      
-      <script src="javascript/script.js"></script>
+
+<body onclick="jump();">
+    <h1 class="center">Dino-Game</h1>
+    <div id="game">
+        <div id="block"></div>
+        <div id="character"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="javascript/scripts.js"></script>
+    <h2>Pontuação mais alta: <strong>0</strong></h2>
 </body>
+
 </html>
